@@ -46,7 +46,7 @@ font-size: 18px;
 .card {
   width: 250px;
   height: 320px;
-  position: absolute;
+  position: fixed;
   bottom: 6%;
   right: 4%;
   overflow: hidden;
