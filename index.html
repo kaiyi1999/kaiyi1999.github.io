@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style2.css">
-<script data-who="💎 Made with naker.io 💎" src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|horizontal|,|sensitivity|:0.8,|colorStart|:[28,1,90,1],|colorEnd|:[90,25,101,1]},|particle|:{|life|:10000000,|power|:0,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_05.png|,|number|:827,|colorStart|:[223,253,35,0.65],|colorEnd|:[142,141,179,0.82],|sizeStart|:0.47,|sizeEnd|:0.94,|direction1|:{|x|:0,|y|:0,|z|:0},|direction2|:{|x|:0,|y|:0,|z|:0}}}" data-container="wrapper"></script>
+<!-- <script data-who="💎 Made with naker.io 💎" src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|horizontal|,|sensitivity|:0.8,|colorStart|:[28,1,90,1],|colorEnd|:[90,25,101,1]},|particle|:{|life|:10000000,|power|:0,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_05.png|,|number|:827,|colorStart|:[223,253,35,0.65],|colorEnd|:[142,141,179,0.82],|sizeStart|:0.47,|sizeEnd|:0.94,|direction1|:{|x|:0,|y|:0,|z|:0},|direction2|:{|x|:0,|y|:0,|z|:0}}}" data-container="wrapper"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
   <title>CyberQuote</title>
   </head>
 
   <body>
-  	<div id="wrapper">
-
-  	</div>
+  	<div id="wrapper"></div>
+  	<script>
+		VANTA.WAVES({
+		  el: "#wrapper",
+		  mouseControls: true,
+		  touchControls: true,
+		  gyroControls: false,
+		  minHeight: 200.00,
+		  minWidth: 200.00,
+		  scale: 1.00,
+		  scaleMobile: 1.00
+		})
+	</script>
 	  <div class="center">
-	      <img src="Images/dcmLogo.png" style="width: 800px;" alt="DCM Logo">
+	      <img src="Images/dcmlogowhite.png" style="width: 600px;" alt="DCM Logo">
 	  </div>
 
 
@@ -22,7 +35,7 @@
 
 		  <label for="inputCheck" class="fab-btn">
 		    <span>
-		    	<img id="icon" src="Images/icon1.png" alt="whatsappicon">
+		    	<img id="icon" src="images/icon1.png" alt="whatsappicon">
 		    </span>
 		  </label>
 
